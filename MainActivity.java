@@ -17,9 +17,10 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity implements LocationListener {
 
     public static Button btnLocation;
+    public static TextView txtLat;
 
     protected LocationManager locationManager;
-    TextView txtLat;
+
     String lat;
     String provider;
     protected boolean gps_enabled,network_enabled;
